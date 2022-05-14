@@ -1,0 +1,93 @@
+.item{
+    box-shadow: 0 0 3px black;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.item:hover{
+    transform: scale(1.02);
+    transition:all 0.2s
+}
+.item name{
+    color: tomato;
+}.item .newname{
+    color:tomato;
+    font-size: 20px;
+}
+.item .price{
+    color:black;
+    text-align:center;
+    font-size: 20px;
+
+}
+.item .button{
+    border-radius: 5px;
+    margin-top: 3px;
+}
+input{
+    border: 1px solid green !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.ant-select-selector{
+    border: 1px solid green !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+.category{
+    border: 2px solid grey;
+    margin-right: 50px;
+    align-items: center;
+    padding-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.category h4{
+    margin-right: 25px;
+    font-size: 22px;
+}
+.category img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: -3px;
+
+}
+.selected-category{
+    border: 3px solid green;
+
+
+}
+
+.subtotal h3{
+    color:green;
+    font-size:25px;
+    padding: 10px;
+    
+
+}
+.bill-model h1{
+    font-size:30px
+}
+.bill-model p{
+    margin-bottom:0 !important;
+    margin-top:0
+}
+.bill-header{
+    border-bottom: 2px dotted black;
+}
+.dotted-border{
+    border-bottom: 2px dotted black;
+
+
+}
+@media only screen and (max-width:600px){
+    .categories{
+        overflow-x: scroll;
+        width:100%
+    }
+}
